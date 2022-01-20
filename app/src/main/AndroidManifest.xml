@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PMStorage">
         <activity
+            android:name=".InStorageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExStorageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
